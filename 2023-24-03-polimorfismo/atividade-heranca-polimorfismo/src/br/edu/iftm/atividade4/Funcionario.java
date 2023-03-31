@@ -1,0 +1,39 @@
+package br.edu.iftm.atividade4;
+
+import java.util.Objects;
+
+public class Funcionario {
+    private String nome;
+    private String cpf;
+
+    public Funcionario(String nome, String cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
+    public Funcionario() {
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public double calcularSalario(double valorPagoPorHora, int horasTrabalhadas){
+        return valorPagoPorHora * horasTrabalhadas;
+    }
+
+}
+
+

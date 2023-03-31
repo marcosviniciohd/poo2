@@ -7,13 +7,13 @@ public class PrincipalVeiculos {
         Veiculo caminhao = new Caminhao("Caminhão", "Mercedes", "Actros", "Branco");
 
         carro.imprirInfos();
-        carro.acelelar(100);
+        carro.acelelar(120);
 
         moto.imprirInfos();
         moto.acelelar(110);
 
         caminhao.imprirInfos();
-        caminhao.acelelar(120);
+        caminhao.acelelar(90);
 
     }
 }
