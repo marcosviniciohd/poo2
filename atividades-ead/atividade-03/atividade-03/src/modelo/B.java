@@ -1,2 +1,7 @@
-package modelo;public class B {
+package modelo;
+
+public class B {
+    public B () {
+        System.out.println("Classe B");
+    }
 }
