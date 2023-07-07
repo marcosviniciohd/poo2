@@ -10,8 +10,10 @@ public class Aluno {
         this.n1 = n1;
         this.n2 = n2;
     }
-    public Aluno() {
 
+    public double calcularMedia() {
+        double media = (this.n1 + this.n2) / 2;
+        return media;
     }
 
     public String getNome() {
