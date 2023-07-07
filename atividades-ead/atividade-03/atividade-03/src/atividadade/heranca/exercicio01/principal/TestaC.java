@@ -1,6 +1,6 @@
-package principal;
+package atividadade.heranca.exercicio01.principal;
 
-import modelo.C;
+import atividadade.heranca.exercicio01.modelo.C;
 
 public class TestaC {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package modelo;
+package atividadade.heranca.exercicio01.modelo;
 
 public class B {
     public B () {
